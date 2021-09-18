@@ -1,0 +1,36 @@
+// android > build.gradle
+
+buildscript {
+    ext.kotlin_version = '1.5.21' // updated to match the IDE version
+    repositories {
+        google()
+        jcenter()  // no longer receiving updates, but needed for build
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.2.2'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath 'com.google.gms:google-services:4.3.8'
+
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+rootProject.buildDir = '../build'
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+subprojects {
+    project.evaluationDependsOn(':app')
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+

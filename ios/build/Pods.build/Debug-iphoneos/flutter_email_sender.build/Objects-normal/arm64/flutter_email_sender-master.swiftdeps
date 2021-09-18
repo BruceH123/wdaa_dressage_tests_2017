@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)"
+options: "74d937f3f6d5e0c8f0d4beedfc6fcdfc"
+build_time: [1620006486, 402927000]
+inputs:
+  "/Users/brucehamilton2019/.pub-cache/hosted/pub.dartlang.org/flutter_email_sender-5.0.0/ios/Classes/SwiftFlutterEmailSenderPlugin.swift": [1584875692, 0]

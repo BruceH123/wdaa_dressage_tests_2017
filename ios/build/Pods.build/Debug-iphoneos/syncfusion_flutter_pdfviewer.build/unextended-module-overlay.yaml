@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/imac/AndroidStudioProjects/wdaa_dressage_tests_2017/build/ios/Debug-iphoneos/syncfusion_flutter_pdfviewer/syncfusion_flutter_pdfviewer.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/imac/AndroidStudioProjects/wdaa_dressage_tests_2017/ios/build/Pods.build/Debug-iphoneos/syncfusion_flutter_pdfviewer.build/unextended-module.modulemap",
+    }]
+  }]
+}
